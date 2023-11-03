@@ -63,7 +63,7 @@ export default{
             const newResource = {
                 id: new Date().toISOString,
                 title:title,
-                descrition:description,
+                description:description,
                 link:url
             };
             this.storedResources.unshift(newResource);
